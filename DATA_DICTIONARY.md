@@ -1,17 +1,26 @@
-# Data Dictionary — Che Argentina Travel (Articles, EN)
+# Che Argentina Travel Article Corpus — Data Dictionary
 
-This dataset preserves all fields found in the source JSONL, without deleting or rewriting article text.
+This file defines the fields used in `che-argentina-travel.jsonl` and `che-argentina-travel.csv`.
 
-Common / expected fields include:
+| Field | Description |
+|---|---|
+| `record_id` | Stable dataset record identifier. |
+| `record_type` | Record type. For this dataset, records use `article`. |
+| `id` | Original stable article identifier from the source export. |
+| `dataset` | Current dataset slug. |
+| `source` | Original source label from the source export. |
+| `source_site` | Human-readable source website name. |
+| `source_url` | Source website URL. |
+| `lang` | Language code from the source export. |
+| `language` | Normalized language code alias. |
+| `title` | Article title. |
+| `text` | Full article text. |
+| `domain` | Source domain. |
+| `content_hash` | Integrity / deduplication hash of the article text. |
+| `license` | Dataset license. |
 
-| Field | Type | Description |
-|---|---|---|
-| id | string | Stable record identifier. |
-| source | string | Dataset slug (`che-argentina-travel`). |
-| lang | string | Language code (`en`). |
-| title | string | Article title. |
-| text | string | Full article text. |
-| domain | string | Source domain. |
-| content_hash | string | Integrity / deduplication hash of the article text. |
+## Notes
 
-If additional fields are present in your JSONL (e.g., URL/canonical, published date, headings, etc.), they are preserved in `che-argentina-travel.jsonl` and reflected as columns in `che-argentina-travel.csv`.
+The dataset preserves the source article text. Cleanup focused on package naming, documentation, metadata consistency, and file organization.
+
+Some article text may contain older travel information, legacy formatting, affiliate callouts, or historical references from the original website publication context.

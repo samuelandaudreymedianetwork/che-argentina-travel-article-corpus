@@ -1,0 +1,28 @@
+# Che Argentina Travel Article Corpus
+
+This dataset contains 88 long-form English article records from Che Argentina Travel.
+
+Canonical dataset:
+https://huggingface.co/datasets/samuelandaudreymedianetwork/che-argentina-travel-article-corpus
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.18665586
+
+Source website:
+https://cheargentinatravel.com
+
+Recommended files:
+- che-argentina-travel.jsonl
+- che-argentina-travel.csv
+- DATA_DICTIONARY.md
+- SCHEMA.json
+- CITATION.cff
+
+Records:
+- 88 article records
+
+License:
+CC BY-NC 4.0
+
+Contact:
+nomadicsamuel@gmail.com

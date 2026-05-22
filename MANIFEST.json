@@ -1,0 +1,84 @@
+{
+  "dataset": "che-argentina-travel-article-corpus",
+  "title": "Che Argentina Travel Article Corpus",
+  "generated_utc": "2026-05-21T19:28:38.450940+00:00",
+  "records_total": 88,
+  "record_counts_by_type": {
+    "article": 88
+  },
+  "canonical_dataset_url": "https://huggingface.co/datasets/samuelandaudreymedianetwork/che-argentina-travel-article-corpus",
+  "source_website": "https://cheargentinatravel.com",
+  "doi": "10.5281/zenodo.18665586",
+  "license": "CC-BY-NC-4.0",
+  "snapshot": {
+    "records_with_titles": 88,
+    "records_with_content_hashes": 88,
+    "language_counts": {
+      "en": 88
+    },
+    "approx_total_words": 225408,
+    "approx_total_characters": 1281808
+  },
+  "files": {
+    ".gitattributes": {
+      "bytes": 127,
+      "sha256": "f884ab5acc3c44d244496ca3be708ee0bb81d627d6b78ba33331abd90b1d7f68"
+    },
+    "CITATION.cff": {
+      "bytes": 887,
+      "sha256": "5e9bcec75e03a0c930071a407accbf949d600a2e82880d44e8785da7ec7c45ba"
+    },
+    "DATA_DICTIONARY.md": {
+      "bytes": 1200,
+      "sha256": "dcd3c29516898d5ba8406bc8dec577a078b3acc7cfc298f620e1bc6a58e74c38"
+    },
+    "LICENSE.txt": {
+      "bytes": 565,
+      "sha256": "2cbdc48c2204869175a999956b8be6d3fbf1b0f00397da43c85ee072e7a8f841"
+    },
+    "MANIFEST.json": {
+      "bytes": 705,
+      "sha256": "4a6261d4753a05acec7b9efa45b86a5891c7ccea90ff7fd5881e19975b274e94"
+    },
+    "README.md": {
+      "bytes": 4390,
+      "sha256": "67d50cac66dfa4d789b727234e657914398defe7f8b6bcfba39c79359b495dd2"
+    },
+    "SCHEMA.json": {
+      "bytes": 1275,
+      "sha256": "1033f2c05317e6dfb7579eca5f508af3cb2f1f748acc9c3cefe622b6a5589704"
+    },
+    "che-argentina-travel.csv": {
+      "bytes": 1317796,
+      "sha256": "a92f23244779f8e5cfa380a3561e2ed270d04d1305f0e6a57a1edd3b301dc7b0"
+    },
+    "che-argentina-travel.csv.gz": {
+      "bytes": 458516,
+      "sha256": "c1eef8fdd17ec294b1354a7dc9be55598476be87669716d22b48ced26c2d9205"
+    },
+    "che-argentina-travel.jsonl": {
+      "bytes": 1351549,
+      "sha256": "c42f4baecc37d5c548176f0df2c98dce6367cee1b09400385ae5088f1f46b988"
+    },
+    "che-argentina-travel.jsonl.gz": {
+      "bytes": 460607,
+      "sha256": "cd7f53c767fb31471a72c1939e4c23cb99c878a44e4ad6cc0ebd1855e79b7071"
+    },
+    "llms-che-argentina-travel-article-corpus.txt": {
+      "bytes": 1351912,
+      "sha256": "e3993d82379ccf5b217f8bb193d799e91aeaa5d0c50a37e80e66c44b88de961f"
+    },
+    "llms-che-argentina-travel-article-corpus.txt.gz": {
+      "bytes": 460844,
+      "sha256": "f7693a972b1696622640409c252d986ed57954862d8cc0cd642e4568bd676d13"
+    },
+    "llms.txt": {
+      "bytes": 556,
+      "sha256": "c7abb9c2948302dd4fc014d93d6d9b873a1e27a0262373b7fdef0c2e6122c702"
+    },
+    "llms.txt.gz": {
+      "bytes": 359,
+      "sha256": "b86c00a369b2f567f971c6dfdc6175a351eae0b3d801b4afa1c99483a9901815"
+    }
+  }
+}

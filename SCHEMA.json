@@ -1,17 +1,51 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Che Argentina Travel (Articles, EN)",
+  "title": "Che Argentina Travel Article Corpus",
+  "description": "Structured article corpus from Che Argentina Travel.",
   "type": "object",
   "additionalProperties": true,
   "properties": {
+    "record_id": {
+      "type": "string"
+    },
+    "record_type": {
+      "type": "string"
+    },
     "id": {
       "type": "string"
     },
-    "source": {
+    "dataset": {
       "type": "string"
     },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_site": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "lang": {
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "title": {
       "type": "string"
@@ -20,19 +54,28 @@
       "type": "string"
     },
     "domain": {
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "content_hash": {
-      "type": "string"
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [
-    "id",
-    "source",
-    "lang",
+    "record_id",
+    "record_type",
     "title",
-    "text",
-    "domain",
-    "content_hash"
+    "text"
   ]
 }
